@@ -1,0 +1,1 @@
+import{expect,it}from'vitest';import{decode}from'../src/index.js';it('decodes',()=>expect(decode(Uint8Array.from([1,7,0]))).toHaveLength(2));
